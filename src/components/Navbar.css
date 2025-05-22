@@ -1,0 +1,51 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navlogo {
+  font-size: 22px;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 0.5px;
+}
+
+.navcenter a {
+  margin: 0 12px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.navcenter a:hover {
+  font-weight: 600;
+}
+
+.navright .logoutbtn {
+  padding: 6px 14px;
+  background: #ff0745;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+
