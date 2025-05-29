@@ -40,7 +40,7 @@ function AppRoutes() {
         </Route>
 
         <Route path="*" element={<Navigate to="/" />} />
-      </Routes>``
+      </Routes>
     </>
   );
 }
